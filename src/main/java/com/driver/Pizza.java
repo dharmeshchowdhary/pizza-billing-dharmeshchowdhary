@@ -20,6 +20,7 @@ public class Pizza {
         this.isExtraCheese = false;
         this.isExtraToppings = false;
         this.isBillGenerated = false;
+        this.isTakeAway = false;
         // your code goes here
         if(isVeg){
             this.price = 300;
@@ -30,6 +31,7 @@ public class Pizza {
             this.toppings = 120;
         }
         this.cheese = 80;
+        this.bill += "Base Price Of The Pizza: " + this.price + "\n";
     }
 
     public int getPrice(){
